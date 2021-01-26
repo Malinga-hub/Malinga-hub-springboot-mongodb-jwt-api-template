@@ -1,0 +1,25 @@
+plugins {
+	id 'org.springframework.boot' version '2.4.2'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'spring.service'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '15'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '2.4.2'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-mail', version: '2.4.2'
+	compile group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0'
+}
+
+test {
+	useJUnitPlatform()
+}
