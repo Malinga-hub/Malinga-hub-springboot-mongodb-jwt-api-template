@@ -4,8 +4,8 @@ import javax.servlet.http.HttpServletResponse;
 
 public class AppConfig {
 
-    public static final String EMAIL_USERNAME = "malingasimz@gmail.com"; //your email address
-    public static final String EMAIL_PASSWORD = "feugklljowqmrgoe"; //your email password
+    public static final String EMAIL_USERNAME = ""; //your email address
+    public static final String EMAIL_PASSWORD = ""; //your email password
     public static final String EMAIL_PORT="587";
     public static final String EMAIL_HOST="smtp.gmail.com";
 
